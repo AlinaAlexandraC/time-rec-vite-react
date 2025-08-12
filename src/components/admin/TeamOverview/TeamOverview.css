@@ -1,0 +1,30 @@
+.team-overview-container {
+    border: 3px solid #dde1e9;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 50%;
+    height: fit-content;
+    padding: 24px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 6px 0;
+}
+
+.team-overview-title {
+    text-align: start;
+    font-weight: 600;
+}
+
+.team-overview-timeframe {
+    padding: 6px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #dde1e9;
+}
+
+.team-overview-timeframe span {
+    flex: 1;
+}

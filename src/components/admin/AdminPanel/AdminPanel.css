@@ -1,0 +1,24 @@
+.admin-panel-container {
+    height: calc(100vh - 130px);
+    padding: 0 2rem;
+}
+
+.admin-panel-tabs {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #afb3bc;
+    gap: 6px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.admin-tab {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #afb3bc;
+    flex: 1;
+}

@@ -1,0 +1,39 @@
+.chart-wrapper-container {
+    background-color: #f7f8fa;
+    border-radius: 18px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+.chart-area {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.chart-area canvas {
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.custom-legend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-legend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.custom-legend span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 3px;
+}
