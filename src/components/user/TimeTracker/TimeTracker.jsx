@@ -14,8 +14,8 @@ import "./TimeTracker.css";
 const TimeTracker = () => {
   return (
     <div className="time-tracker-container">
-      <TodayShiftList />
       <ActivitySelector />
+      <TodayShiftList />
     </div>
   );
 };

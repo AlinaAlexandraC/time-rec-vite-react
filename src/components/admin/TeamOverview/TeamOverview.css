@@ -15,6 +15,7 @@
 .team-overview-title {
     text-align: start;
     font-weight: 600;
+    user-select: none;
 }
 
 .team-overview-timeframe {
@@ -27,4 +28,5 @@
 
 .team-overview-timeframe span {
     flex: 1;
+    user-select: none;
 }

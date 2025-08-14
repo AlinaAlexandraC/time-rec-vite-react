@@ -1,0 +1,40 @@
+.user-list-wrapper {
+    background-color: #ffffff;
+    margin: 6px 0;
+    border: 1px solid #dde1e9;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: calc(100% - 75px);
+    display: flex;
+    overflow-x: auto;
+}
+
+th {
+    user-select: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid #dde1e9;
+    border-collapse: collapse;
+}
+
+table {
+    table-layout: auto;
+    box-sizing: border-box;
+    margin: 1.5rem;
+    width: 100%;
+    min-width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th,
+td {
+    width: 1fr;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f9fc;
+}

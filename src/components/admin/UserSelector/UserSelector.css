@@ -1,0 +1,4 @@
+.export-data-wizard-users-select-container {
+    display: flex;
+    flex-direction: column;
+}

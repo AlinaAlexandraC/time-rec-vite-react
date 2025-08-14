@@ -1,0 +1,15 @@
+.export-data-preview {
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 50%;
+    margin: 1.5rem;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.export-data-preview-title {
+    text-align: start;
+    font-weight: 600;
+}

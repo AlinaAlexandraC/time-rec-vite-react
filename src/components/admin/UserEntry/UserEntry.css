@@ -1,3 +1,28 @@
-.user-entry-container {
-    background-color: rebeccapurple;
+.user-entry-actions {
+    background-color: #21bca7;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+    margin: 6px;
+    user-select: none;
+}
+
+.user-entry-dropdown-content {
+    position: absolute;
+    right: 7%;
+    width: 150px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 10px 1px black;
+    z-index: 1;
+}
+
+.user-entry-dropdown-content span {
+    padding: 6px;
+    color: black;
 }
