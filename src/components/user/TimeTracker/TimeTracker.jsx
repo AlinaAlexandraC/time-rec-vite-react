@@ -8,7 +8,7 @@
 // <TodayShiftList /> – list of today’s recorded shifts (non-editable for users, editable for admins if you want).
 
 import ActivitySelector from "../ActivitySelector/ActivitySelector";
-import TodayShiftList from "../TodayShiftList/TodayShiftList";
+import TodayShiftList from "../ShiftSummary/ShiftSummary";
 import "./TimeTracker.css";
 
 const TimeTracker = () => {

@@ -33,7 +33,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
 
   return (
     <div className="navbar-container">
-      <div className="navbar-wrapper">
+      <div className="navbar-left-wrapper">
         <div className="navbar-dashboard">
           <img src={logoIcon} alt="logo" className="navbar-logo" />
           <span className="navbar-title">Dashboard</span>
@@ -53,9 +53,12 @@ const Navbar = ({ activeTab, setActiveTab }) => {
           </div>
         </div>
       </div>
-      <div className="navbar-time">
-        <span>{currentTime}</span>
-        <img src={helpIcon} alt="help" className="navbar-help-icon" />
+      <div className="navbar-right-wrapper">
+        <div className="navbar-time">
+          <span>{currentTime}</span>
+          <img src={helpIcon} alt="help" className="navbar-help-icon" />
+        </div>
+        <button>Log out</button>
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ const FiltersPanel = ({
 }) => {
   return (
     <div className="export-data-wizard-filters-container">
+      <span className="export-data-wizard title">Export Wizard</span>
       <div className="export-data-wizard-team-dropdown input-container">
         <label htmlFor="team">Select Team</label>
         <select name="team" id="team">

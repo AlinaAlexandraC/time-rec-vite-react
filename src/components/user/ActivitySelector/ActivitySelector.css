@@ -10,6 +10,21 @@
     flex-direction: column;
 }
 
+.activity-selector-dropdown {
+    border-radius: 6px;
+    padding: 6px;
+    outline: none;
+    text-indent: 6px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: black url("data:image/svg+xml;utf8,<svg fill='white' viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'><path d='M0 0l5 6 5-6z'/></svg>") no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+}
+
 @media only screen and (max-width: 1100px) {
     .activity-selector-container {
         width: 100%;

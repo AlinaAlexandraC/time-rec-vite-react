@@ -1,4 +1,4 @@
-.today-shift-list-container {
+.shift-summary-container {
     border: 3px solid #dde1e9;
     background-color: #ffffff;
     box-sizing: border-box;
@@ -11,14 +11,14 @@
     gap: 2rem;
 }
 
-.today-shift-list-title {
+.shift-summary-title {
     text-align: start;
     font-weight: 600;
 }
 
 
 @media only screen and (max-width: 1100px) {
-    .today-shift-list-container {
+    .shift-summary-container {
         width: 100%;
     }
 }

@@ -11,8 +11,7 @@ const ExportData = () => {
 
   return (
     <div className="export-data-container">
-      <div className="export-data-wizard">
-        <span className="export-data-wizard-title">Export Wizard</span>
+      <div className="export-data-wizard-wrapper">
         {applyFilters === false && (
           <FiltersPanel
             startDate={startDate}

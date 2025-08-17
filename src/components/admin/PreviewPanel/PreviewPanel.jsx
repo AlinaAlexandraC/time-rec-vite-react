@@ -2,8 +2,8 @@ import "./PreviewPanel.css";
 
 const PreviewPanel = () => {
   return (
-    <div className="export-data-preview">
-      <span className="export-data-preview-title">Preview</span>
+    <div className="preview-panel-container">
+      <span className="preview-panel title">Preview</span>
     </div>
   );
 };

@@ -21,3 +21,8 @@
   align-items: flex-start;
   gap: 6px;
 }
+
+.title {
+  text-align: start;
+  font-weight: 600;
+}

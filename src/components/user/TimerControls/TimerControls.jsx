@@ -1,7 +1,20 @@
-const TimerControls = () => {
+import "./TimerControls.css";
+
+const TimerControls = ({ shiftStarted, setShiftStarted, logActivity }) => {
   return (
     <div className="timer-controls-container">
-      <button>Start/ Change</button>
+      {shiftStarted ? (
+        <button onClick={logActivity}>Change</button>
+      ) : (
+        <button
+          onClick={() => {
+            setShiftStarted(!shiftStarted);
+            logActivity();
+          }}
+        >
+          Start
+        </button>
+      )}
       <button>Stop</button>
     </div>
   );
